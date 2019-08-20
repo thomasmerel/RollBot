@@ -1,6 +1,6 @@
 const Command = require('./command');
 
-module.exports = class Ping extends Command {
+module.exports = class Roll extends Command {
     static match(message) {
         return message.content.startsWith(process.env.PREFIX + 'roll');
     }
